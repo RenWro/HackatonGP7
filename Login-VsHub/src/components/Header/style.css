@@ -1,0 +1,30 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+    z-index: 9999;
+    position: fixed;
+    margin-left: 92%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 7%;
+    height: 10vh;
+    background-color: none;
+
+}
+
+header span{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-right: 2%;
+    background-color: #58af9b;
+    border-radius: 10px;
+}
+

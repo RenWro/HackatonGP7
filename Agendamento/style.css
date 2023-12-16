@@ -1,0 +1,76 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Titillium Web', sans-serif;
+}
+
+.cabecalho{
+    width: 100vw;
+    background-color:#538CC1 ;
+    height: 100px;
+}
+
+.logo_links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 100%;
+}
+
+.links{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.posicao{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.elementos_card a{
+    color: white;
+    font-size: 20px;
+}
+
+.card{
+    width: 100vw;
+    display: flex;
+    gap: 40px;
+    width: 400px;
+    height: 450px;
+    background-color: #538CC1;
+    border-radius: 25px;
+    padding: 0 40px;
+}
+
+.elementos_card{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
